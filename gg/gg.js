@@ -1,13 +1,13 @@
 /** 
- * Javascript Gangstar Gree engine
+ * Javascript animation engine
  * @author Vladimir Maluchenko <vladimir.maluchenko@gameloft.com>
  */
 
 "use strict";
 
-// Main Module
+// Init main Module
 var GG = (function() {
-	navigator.vibrate(5000);
+
 	return {
 		
 	}
