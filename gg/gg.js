@@ -8,8 +8,8 @@
 // Init main Module
 var GG = (function() {
 
-	return {
-		
-	}
-    
+    return {
+        
+    };
+
 })();
