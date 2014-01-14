@@ -10,6 +10,6 @@ GG.DOM = (function() {
             parent = parent || document;
             return parent.querySelector(selector);
         }
-    }
+    };
 
 })();

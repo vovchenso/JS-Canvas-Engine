@@ -177,6 +177,6 @@ GG.ANIM.Tools = (function() {
                     break;
             }
         }
-    }
+    };
 
 })();

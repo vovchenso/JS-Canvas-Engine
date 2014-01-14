@@ -49,6 +49,6 @@ GG.COMPRESS = (function() {
             }
             return data;
         }
-    }
+    };
 
 })();

@@ -1,10 +1,11 @@
 
 
 GG.ANIM.Loader = function() {
+    
     var _length = 0,
-            _loaded = 0,
-            _onComplete = null,
-            _quene = null;
+        _loaded = 0,
+        _onComplete = null,
+        _quene = null;
 
     var _get = function(data, callback) {
         for (var item in data) {
@@ -47,4 +48,5 @@ GG.ANIM.Loader = function() {
         _onComplete = completeCallback;
         _load();
     };
+    
 };
