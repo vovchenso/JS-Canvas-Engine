@@ -1,6 +1,5 @@
 "use strict";
 
-
 GG.ANIM.Container = function() {
     this.children = {};
 };

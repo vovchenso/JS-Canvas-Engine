@@ -29,7 +29,7 @@ GG.ANIM.Layer.prototype = {
         return this;
     },
     add: function(child, refreshLayer) {
-        if (child.TYPE != 'Group' && child.TYPE != 'Shape') {
+        if (child.TYPE !== 'Group' && child.TYPE !== 'Shape') {
             throw new Error('You can add to Layer only Groups or Shapes');
         }
         this._add(child);

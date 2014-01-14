@@ -38,6 +38,6 @@ GG.ANIM = (function() {
             }
             return _stages[name];
         }
-    }
+    };
 
 })();

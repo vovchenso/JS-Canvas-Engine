@@ -1,6 +1,5 @@
 "use strict";
 
-
 /**
  * Main node object 
  */

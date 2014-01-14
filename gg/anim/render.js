@@ -1,6 +1,5 @@
 "use strict";
 
-
 GG.ANIM.Render = function(container, width, height) {
     this.area = document.createElement('div');
     this.width = width || 0;

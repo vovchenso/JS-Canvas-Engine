@@ -1,6 +1,5 @@
 "use strict";
 
-
 GG.ANIM.Render.Dom = function() {
     GG.ANIM.Render.apply(this, arguments);
 };
@@ -30,6 +29,6 @@ GG.ANIM.Render.Dom.prototype = {
         div.setAttribute('id', layer.name);
 
         return div;
-    },
+    }
 };
 GG.UTILS.extend(GG.ANIM.Render.Dom, GG.ANIM.Render);

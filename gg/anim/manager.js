@@ -1,8 +1,6 @@
 /**
  * Manager and loader for timeline animation for Gangstar Gree
  * @author Vladimir Maluchenko <vladimir.maluchenko@gameloft.com>
- * 
- * @version 0.0.12 beta
  */
 
 // Timeline Manager
@@ -57,7 +55,7 @@ GG.ANIM.Manager = function(_id) {
             var imageObject = new GG.ANIM.Shapes.Image(image, data[image]);
             layer.add(imageObject);
         }
-    }
+    };
 
     this.init = function(data, callback) {
         _layers = data.layers;

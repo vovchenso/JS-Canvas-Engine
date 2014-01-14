@@ -1,6 +1,5 @@
 "use strict";
 
-
 GG.ANIM.Stage = function() {
     this.animating = false;
     this.frameCallback = void 0;
